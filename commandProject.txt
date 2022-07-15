@@ -1,0 +1,111 @@
+ng new fleets --skip-install
+code . -r
+cd fleets/
+dir
+npm install
+ng serve -o
+cd src/
+code . -r
+cd Downloads/
+cd Projects/
+cd Angular/
+cd fleets/
+cd src/
+ls
+cd app
+ls
+clear
+ng g m modals/insurance
+ng g modal modals/insurance
+ng generate class modals/insurance --type=model
+ng generate class modals/groupe --type=model
+ng generate class modals/mission --type=model
+ng generate class modals/privilege --type=model
+ng generate class modals/provider --type=model
+ng generate class modals/tracer --type=model
+ng generate class modals/user --type=model
+ng generate class modals/vehicle --type=model
+ng generate class modals/vignette --type=model
+ng generate class modals/voucher --type=model
+ng g s services/login
+ng g s services/myhelper
+ng g s services/mymap
+ng g s services/layoutBLL
+ng g s services/layoutbll
+ng g s services/groupes
+ng g s services/insurances
+ng g s services/missions
+ng g s services/privileges
+ng g s services/providers
+ng g s services/tracers
+ng g s services/users
+ng g s services/vehicles
+ng g s services/vignettes
+ng g s services/vouchers
+ng g c layouts/mainlayout
+ng g c layouts/login
+ng g c layouts/notfound
+ng g c layouts/notallowed
+ng g c layouts/navbar-menu
+ng g c layouts/navbar-profil
+ng g c layouts/datareset
+ng g c layouts/btns/btncreate
+ng g c layouts/btns/btndetail
+ng g c layouts/btns/btnsdetail
+ng g c layouts/btns/btnstable
+ng g c components/drivers
+ng g c components/drivers/create-driver
+ng g c components/drivers/detail-driver
+ng g c components/drivers/update-driver
+ng g c components/employees/update-employee
+ng g c components/employees/detail-employee
+ng g c components/employees/create-employee
+ng g c components/employees
+ng g c components/groupes
+ng g c components/groupes/create-groupe
+ng g c components/groupes/detail-groupe
+ng g c components/groupes/update-groupe
+ng g c components/insurances/update-insurance
+ng g c components/insurances/detail-insurance
+ng g c components/insurances/list-insurance
+ng g c components/insurances/create-insurance
+ng g c components/insurances
+ng g c components/missions
+ng g c components/missions/create-mission
+ng g c components/missions/detail-mission
+ng g c components/missions/update-mission
+ng g c components/providers/update-provider
+ng g c components/providers/detail-provider
+ng g c components/providers/create-provider
+ng g c components/providers
+ng g c components/tracers
+ng g c components/users
+ng g c components/users/card-user
+ng g c components/users/create-user
+ng g c components/users/detail-user
+ng g c components/users/list-user
+ng g c components/users/profil
+ng g c components/users/update-user
+ng g c components/vehicles/update-vehicle
+ng g c components/vehicles/list-vehicle
+ng g c components/vehicles/detail-vehicle
+ng g c components/vehicles/create-vehicle
+ng g c components/vehicles/card-vehicle
+ng g c components/vehicles
+ng g c components/vignettes
+ng g c components/vignettes/create-vignette
+ng g c components/vignettes/detail-vignette
+ng g c components/vignettes/list-vignette
+ng g c components/vignettes/update-vignette
+ng g c components/vouchers/update-voucher
+ng g c components/vouchers/list-voucher
+ng g c components/vouchers/detail-voucher
+ng g c components/vouchers/create-voucher
+ng g c components/vouchers
+ng generate guard guards/auth
+ng generate guard guards/create
+ng generate guard guards/read
+ng generate guard guards/superadmin
+ng generate guard guards/update
+npm install leaflet@1.8.0
+npm i --save-dev @types/leaflet
