@@ -150,7 +150,7 @@ export class UsersService {
 
     let newUser = this.convertCreateToModal(user, newId)
 
-    newUser.imageUrl = imageUser ?? "assets/img/avatars/1.png"
+    newUser.imageUrl = imageUser ?? "/angTest/assets/img/avatars/1.png"
     usersTB.push(newUser)
 
     let privilege = user.allPrivileges;

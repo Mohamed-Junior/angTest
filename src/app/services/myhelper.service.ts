@@ -122,7 +122,7 @@ export class MyhelperService {
   public loadScript() {
     // alert('load')
     let node = document.createElement('script');
-    node.src = "assets/js/site.js";
+    node.src = "/angTest/assets/js/site.js";
     // node.type = 'text/javascript';
     node.async = false;
     node.charset = 'utf-8';

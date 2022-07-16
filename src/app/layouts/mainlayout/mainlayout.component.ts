@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainlayoutComponent implements OnInit {
 
   arrayScriptsJS: string[] = [
-    "assets/js/onceLoad.js",
+    "/angTest/assets/js/onceLoad.js",
   ];
   constructor() {}
 

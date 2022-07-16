@@ -864,7 +864,7 @@ export let vehiclesDB: VehicleModal[] =
             "datePurchase": "2022-06-20",
             "dateStartUsage": "2022-06-26",
             "dateLimiteUsage": "2022-12-01",
-            "imageUrl": "assets/img/vehicles/vehicle1.jpg",
+            "imageUrl": "/angTest/assets/img/vehicles/vehicle1.jpg",
             "groupeName": "Groupe1",
         },
         {
@@ -875,7 +875,7 @@ export let vehiclesDB: VehicleModal[] =
             "datePurchase": "2022-06-20",
             "dateStartUsage": "2022-06-23",
             "dateLimiteUsage": "2023-08-30",
-            "imageUrl": "assets/img/vehicles/vehicle2.jpeg",
+            "imageUrl": "/angTest/assets/img/vehicles/vehicle2.jpeg",
             "groupeName": "Groupe2",
         },
         {
@@ -886,7 +886,7 @@ export let vehiclesDB: VehicleModal[] =
             "datePurchase": "2022-06-20",
             "dateStartUsage": "2022-06-22",
             "dateLimiteUsage": "2024-07-31",
-            "imageUrl": "assets/img/vehicles/vehicle3.jpg",
+            "imageUrl": "/angTest/assets/img/vehicles/vehicle3.jpg",
             "groupeName": "Groupe3",
         },
         {
@@ -897,7 +897,7 @@ export let vehiclesDB: VehicleModal[] =
             "datePurchase": "2022-06-28",
             "dateStartUsage": "2022-06-24",
             "dateLimiteUsage": "2023-03-24",
-            "imageUrl": "assets/img/vehicles/vehicle4.jpg",
+            "imageUrl": "/angTest/assets/img/vehicles/vehicle4.jpg",
             "groupeName": "Groupe1",
         },
         {
@@ -908,7 +908,7 @@ export let vehiclesDB: VehicleModal[] =
             "datePurchase": "2022-06-20",
             "dateStartUsage": "2022-06-23",
             "dateLimiteUsage": "2024-05-14",
-            "imageUrl": "assets/img/vehicles/vehicle5.png",
+            "imageUrl": "/angTest/assets/img/vehicles/vehicle5.png",
             "groupeName": "Groupe1",
         },
         {
@@ -919,7 +919,7 @@ export let vehiclesDB: VehicleModal[] =
             "datePurchase": "2022-06-27",
             "dateStartUsage": "2022-06-17",
             "dateLimiteUsage": "2023-10-20",
-            "imageUrl": "assets/img/vehicles/vehicle6.jpeg",
+            "imageUrl": "/angTest/assets/img/vehicles/vehicle6.jpeg",
             "groupeName": "Groupe5",
         }
     ]
@@ -1061,7 +1061,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358459",
             "address": "Monastirr",
-            "imageUrl": "assets/img/users/med_li_jr.jpg",
+            "imageUrl": "/angTest/assets/img/users/med_li_jr.jpg",
             "roleName": "superAdmin",
             "isSuperAdmin": true,
 
@@ -1073,7 +1073,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358458",
             "address": "Soussa",
-            "imageUrl": "assets/img/users/adminemp.png",
+            "imageUrl": "/angTest/assets/img/users/adminemp.png",
             "roleName": "employee",
             "isSuperAdmin": false,
 
@@ -1085,7 +1085,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358457",
             "address": "Mahdia",
-            "imageUrl": "assets/img/users/jensen.jpeg",
+            "imageUrl": "/angTest/assets/img/users/jensen.jpeg",
             "roleName": "driver",
             "isSuperAdmin": false,
 
@@ -1097,7 +1097,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358456",
             "address": "Sfax",
-            "imageUrl": "assets/img/users/Grant_Gustin.jpg",
+            "imageUrl": "/angTest/assets/img/users/Grant_Gustin.jpg",
             "roleName": "employee",
             "isSuperAdmin": false,
 
@@ -1109,7 +1109,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358455",
             "address": "Tunis",
-            "imageUrl": "assets/img/users/grimm.jpg",
+            "imageUrl": "/angTest/assets/img/users/grimm.jpg",
             "roleName": "employee",
             "isSuperAdmin": false,
 
@@ -1121,7 +1121,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358454",
             "address": "Medenine",
-            "imageUrl": "assets/img/users/driver1.png",
+            "imageUrl": "/angTest/assets/img/users/driver1.png",
             "roleName": "driver",
             "isSuperAdmin": false,
 
@@ -1133,7 +1133,7 @@ export let usersDB: UserModal[] =
             "password": "a",
             "phone": "56358453",
             "address": "Moknine",
-            "imageUrl": "assets/img/users/driver2.png",
+            "imageUrl": "/angTest/assets/img/users/driver2.png",
             "roleName": "driver",
             "isSuperAdmin": false,
 

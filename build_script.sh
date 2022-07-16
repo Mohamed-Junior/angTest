@@ -14,7 +14,7 @@ cd ..
 echo "changed directory parent"
 git add .
 echo "commit has started........."
-git commit
+git commit -m "test build hosting"
 echo "commit has finished........."
 echo "push has started........."
 git push -u origin main
