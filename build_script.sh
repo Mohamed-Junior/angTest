@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "build has started........."
-ng build --base-href ./
+ng build --base-href /
 echo "build has finshed"
 cd docs
 echo "changed directory"
