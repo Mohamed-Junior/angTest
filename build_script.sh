@@ -1,7 +1,4 @@
 #!/bin/bash
-echo "build has started........."
-ng build --base-href /angTest
-echo "build has finshed"
 cd docs
 echo "changed directory"
 echo "copy has started........."
